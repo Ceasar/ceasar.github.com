@@ -9,19 +9,19 @@ tags: []
 If you love Github and aren't particularly skilled with css, and you also want to make your resume stand out by using anything but Microsoft word, this post is for you.
 
 Meet Bootstrap
-==============
+--------------
 
 If you don't know what [Twitter Bootrap](http://twitter.github.com/bootstrap/), you're missing out. Basically, Twitter has packaged some very generic, but very pretty css all into one file that just instantly makes any html document aesthetically pleasing.
 
 I'll leave the explanation of how to use it to the docs, but here's the motivation for using bootstrap:
 
 * It provides very sensible default styles, but it's also super easy to override parts as needed.
-* It has a built in grid system with support for several new tags, notably <section> and <row>.
+* It has a built in grid system with support for several new tags, notably "section" and "row".
 
 Combine the two together, and it suddenly there's no reason to bother with Word anymore.
 
 Meet Github
-===========
+-----------
 
 Better yet, since we no longer are using Word, we can use Git and get some really sensible commits. Again, I'll assume you know how to use Git, but here's something you may not know: Git lets you host pages for your projects (for free).
 
@@ -30,7 +30,7 @@ The service is called [Github Pages](http://pages.github.com) and you're really 
 And now we have our resume online for free, it's automatically updated everytime we push, and we can even add links to anything we want. (Time to get rid of PDFs in my opinion.)
 
 HTML to PDF
-===========
+-----------
 
 Lastly, you'll probably want some PDFs to share with recruiters since many won't accept a URL. Unfortunately, there's no way to "Save as..." HTML to a PDF.
 
