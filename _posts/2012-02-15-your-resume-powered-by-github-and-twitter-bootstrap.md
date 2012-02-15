@@ -11,7 +11,7 @@ If you love Github and aren't particularly skilled with css, and you also want t
 Meet Bootstrap
 --------------
 
-If you don't know what [Twitter Bootrap](http://twitter.github.com/bootstrap/), you're missing out. Basically, Twitter has packaged some very generic, but very pretty css all into one file that just instantly makes any html document aesthetically pleasing.
+If you don't know what [Twitter Bootstrap](http://twitter.github.com/bootstrap/), you're missing out. Basically, Twitter has packaged some very generic, but very pretty css all into one file that just instantly makes any html document aesthetically pleasing.
 
 I'll leave the explanation of how to use it to the docs, but here's the motivation for using bootstrap:
 
