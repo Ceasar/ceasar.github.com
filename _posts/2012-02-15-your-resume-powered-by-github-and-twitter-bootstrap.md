@@ -38,4 +38,4 @@ Fortunately, there is a way to get a PDF anyhow, although I've yet to find a par
 
 Conclusion
 ----------
-I hope that was useful. May you now see editing your resume as a source of pleasure instead of just another chore.
+I hope that was useful. If you need any ideas for how to layout yours, feel free to borrow code from [mine](http://ceasar.github.com/resume/).
