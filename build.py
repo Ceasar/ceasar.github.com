@@ -4,6 +4,7 @@ import sys
 import time
 
 from jinja2 import Environment, FileSystemLoader, TemplateSyntaxError
+from jinja2_hamlpy import HamlPyExtension
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
@@ -42,9 +43,11 @@ def retry(exceptions, tries=5, delay=0.25):
 
 
 class JinjaEventHandler(FileSystemEventHandler):
-    def __init__(self, template_dir):
+    def __init__(self, template_dir, extensions):
         loader = FileSystemLoader(searchpath=template_dir)
-        self.env = Environment(loader=loader)
+        if extensions is None:
+            extensions = []
+        self.env = Environment(loader=loader, extensions=extensions)
 
     def build_template(self, template_name, **kwargs):
         """Compile a template."""
@@ -53,8 +56,13 @@ class JinjaEventHandler(FileSystemEventHandler):
         path = "/".join(template_name.split("/")[:-1]) + "/"
         if not os.path.exists(path):
             os.makedirs(path)
+        # Coerce haml files to html files
+        if not template_name.endswith('.html'):
+            template_name = template_name.split('.')[0] + ".html"
         with open(template_name, "w") as f:
             f.write(template.render(**kwargs))
+
+    EXTENSIONS = ['.html', 'haml']
 
     @retry(TemplateSyntaxError, tries=float('inf'), delay=5)
     def build(self, **kwargs):
@@ -68,9 +76,11 @@ class JinjaEventHandler(FileSystemEventHandler):
             except IndexError:
                 pass
             for filename in filenames:
+                if not any(filename.endswith(ext) for ext in self.EXTENSIONS):
+                    continue
                 # Ignore any templates whose name begin with an underscore
                 # This lets us ignore abstract templates, eg "base.html"
-                if not filename.startswith("_") and filename.endswith(".html"):
+                if not filename.startswith("_"):
                     if path:
                         self.build_template("%s/%s" % (path, filename))
                     else:
@@ -99,7 +109,9 @@ def watch(event_handler, watched_dir):
 
 
 def main(argv):
-    event_handler = JinjaEventHandler(TEMPLATE_DIR)
+    event_handler = JinjaEventHandler(TEMPLATE_DIR,
+                                      extensions=[HamlPyExtension]
+                                      )
     return watch(event_handler, TEMPLATE_DIR)
 
 
