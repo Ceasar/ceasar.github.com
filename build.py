@@ -4,7 +4,7 @@ import sys
 import time
 
 from jinja2 import Environment, FileSystemLoader, TemplateSyntaxError
-from jinja2_hamlpy import HamlPyExtension
+from hamlish_jinja import HamlishExtension
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
@@ -43,11 +43,40 @@ def retry(exceptions, tries=5, delay=0.25):
 
 
 class JinjaEventHandler(FileSystemEventHandler):
-    def __init__(self, template_dir, extensions):
+
+    EXTENSIONS = ['.html', 'haml']
+
+    def __init__(self, template_dir, extensions=None, rules=None):
+        """Initialize a new JinjaEventHandler.
+        
+        Parameters:
+            * template_dir - The directory where the templates are located
+            * extensions - A list of extensions to the jinja Environment
+            * rules - A dictionary that matches up template_names to extra
+            data to pass to the template in the form of a dictionary.
+
+        Templates are compiled to the current working directory. (e.g., if
+        one has templates/index.html, index.html will be in the cwd, and if
+        one has templates/blog/foo.html, blog/foo.html will be created in the
+        cwd.)
+
+        All templates, no matter what their extension, are converted to html.
+
+        Templates that begin with an underscore or end with an extension not
+        listed in self.EXTENSIONS are ignored.
+
+        If for whatever reason an error occurs, the compiler will attempt
+        to recompile the templates using an exponential backing-off strategy.
+        """
         loader = FileSystemLoader(searchpath=template_dir)
         if extensions is None:
             extensions = []
         self.env = Environment(loader=loader, extensions=extensions)
+        self.env.hamlish_enable_div_shortcut = True
+        self.rules = rules
+
+        # Build on init
+        self.build(STATIC_URL=STATIC_URL)
 
     def build_template(self, template_name, **kwargs):
         """Compile a template."""
@@ -60,9 +89,9 @@ class JinjaEventHandler(FileSystemEventHandler):
         if not template_name.endswith('.html'):
             template_name = template_name.split('.')[0] + ".html"
         with open(template_name, "w") as f:
+            if template_name in self.rules:
+                kwargs.update(self.rules[template_name])
             f.write(template.render(**kwargs))
-
-    EXTENSIONS = ['.html', 'haml']
 
     @retry(TemplateSyntaxError, tries=float('inf'), delay=5)
     def build(self, **kwargs):
@@ -109,8 +138,10 @@ def watch(event_handler, watched_dir):
 
 
 def main(argv):
+    rules = {}
     event_handler = JinjaEventHandler(TEMPLATE_DIR,
-                                      extensions=[HamlPyExtension]
+                                      extensions=[HamlishExtension],
+                                      rules=rules,
                                       )
     return watch(event_handler, TEMPLATE_DIR)
 
