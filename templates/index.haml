@@ -7,6 +7,14 @@
                 Ceasar Bautista
             %h2
                 Thoughts on Complexity
+            %h3
+                ~
+            %ul
+                {% for post in posts %}
+                %li
+                    %a href={{ post.href }}
+                        {{ post.name }}
+                {% endfor %}
 {% endblock %}
 {% block footer %}
 {% endblock %}

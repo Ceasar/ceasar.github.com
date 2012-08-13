@@ -10,6 +10,8 @@ Intent
     where I can do whatever I want.
 *   I don't want to manage a blog with tags and categories and pages and posts.
     I just want to make stuff.
+    *   This translates into no categorization of posts. The site will be
+        entirely flat.
 *   I also want full control over the css, and not be coerced to use prebuilt
     themes.
 *   I want to use Vim or whatever text editor I choose to craft my posts.

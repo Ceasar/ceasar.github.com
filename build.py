@@ -1,4 +1,6 @@
+import collections
 import functools
+import glob
 import os
 import sys
 import time
@@ -137,8 +139,24 @@ def watch(event_handler, watched_dir):
     return 0
 
 
+Post = collections.namedtuple('Post', ['name', 'href'])
+
+
+def get_posts():
+    """Get all the posts, minus the index."""
+    for filename in glob.glob("./*.html"):
+        href = filename.split("/")[-1]
+        name = href.split(".")[0].replace("_", " ")
+        if not name == "index":
+            yield Post(name, href)
+
+
 def main(argv):
-    rules = {}
+    rules = {
+        'index.html': {
+            'posts': list(get_posts())
+        }
+    }
     event_handler = JinjaEventHandler(TEMPLATE_DIR,
                                       extensions=[HamlishExtension],
                                       rules=rules,
