@@ -1,2 +1,3 @@
 Jinja2==2.6
 watchdog==0.6.0
+Hamlish-Jinja==0.2.0
