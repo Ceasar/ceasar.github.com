@@ -1,0 +1,12 @@
+{% extends "_base.html" %}
+{% block content %}
+<div class="row">
+    <div class="offset1 span5">
+        {% markdown %}
+            {% block post %}
+                {{ post }}
+            {% endblock post %}
+        {% endmarkdown %}
+    </div>
+</div>
+{% endblock %}

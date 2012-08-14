@@ -5,7 +5,10 @@ import os
 import sys
 import time
 
+import markdown
+import jinja2
 from jinja2 import Environment, FileSystemLoader, TemplateSyntaxError
+from jinja2.ext import Extension
 from hamlish_jinja import HamlishExtension
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
@@ -13,6 +16,33 @@ from watchdog.events import FileSystemEventHandler
 
 STATIC_URL = os.getcwd()
 TEMPLATE_DIR = "./templates"
+
+
+class MarkdownExtension(Extension):
+    """Markdown filter for Jinja2."""
+    tags = set(['markdown'])
+
+    def __init__(self, environment):
+        super(MarkdownExtension, self).__init__(environment)
+        environment.extend(
+                    markdowner=markdown.Markdown(extensions=['codehilite', 'toc'])
+                    )
+
+    def parse(self, parser):
+        lineno = parser.stream.next().lineno
+        body = parser.parse_statements(
+                                       ['name:endmarkdown'],
+                                       drop_needle=True
+                                       )
+        return jinja2.nodes.CallBlock(
+                               self.call_method('_markdown_support'),
+                               [],
+                               [],
+                               body).set_lineno(lineno)
+
+    def _markdown_support(self, caller):
+        """Helper callback."""
+        return self.environment.markdowner.convert(caller()).strip()
 
 
 def retry(exceptions, tries=5, delay=0.25):
@@ -95,6 +125,15 @@ class JinjaEventHandler(FileSystemEventHandler):
                 kwargs.update(self.rules[template_name])
             f.write(template.render(**kwargs))
 
+    def build_post(self, title):
+        print "Compiling %s..." % title
+        template = self.env.get_template("_post.html")
+        with open("./templates/" + title) as r:
+            post = r.read()
+        title = title.split('.')[0] + ".html"
+        with open(title, "w") as f:
+            f.write(template.render(post=post))
+
     @retry(TemplateSyntaxError, tries=float('inf'), delay=5)
     def build(self, **kwargs):
         """Step through each file inside of templates and build it."""
@@ -107,6 +146,9 @@ class JinjaEventHandler(FileSystemEventHandler):
             except IndexError:
                 pass
             for filename in filenames:
+                if filename.endswith(".md"):
+                    self.build_post(filename)
+                    continue
                 if not any(filename.endswith(ext) for ext in self.EXTENSIONS):
                     continue
                 # Ignore any templates whose name begin with an underscore
@@ -158,7 +200,10 @@ def main(argv):
         }
     }
     event_handler = JinjaEventHandler(TEMPLATE_DIR,
-                                      extensions=[HamlishExtension],
+                                      extensions=[
+                                          MarkdownExtension,
+                                          HamlishExtension,
+                                      ],
                                       rules=rules,
                                       )
     return watch(event_handler, TEMPLATE_DIR)
