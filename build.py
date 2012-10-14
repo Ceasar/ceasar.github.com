@@ -23,8 +23,11 @@ def index():
 
 
 def get_contents(filename):
+    _, tail = os.path.split(filename)
+    title = tail.split(".")[0].replace("_", " ")
     with open(filename) as f:
-        return {'post': f.read()}
+        post = f.read()
+    return {'title': title, 'post': post}
 
 
 def build_post(env, filename, **kwargs):
