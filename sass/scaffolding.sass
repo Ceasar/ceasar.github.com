@@ -1,25 +1,20 @@
+
+$font-color: #333
+$border-color: #E5E5E5
+$link-color: #0088cc
+
+.container
+    width: 740px
+
 body
     // background-color: #F2F2F2
     background-color: white
+    font-family: "ff-meta-serif-web-pro-1", "ff-meta-serif-web-pro-2", georgia, serif
+    font-size: 16px
 
-// h1 doesn't get a margin-top, since there should only be one of the page
-h1
-    text-transform: lowercase
 
-h2
-    margin-top: 1em
-    text-transform: lowercase
-
-h3
-    margin-top: 1em
-    text-transform: lowercase
-
-h4
-    margin-top: 1em
-    text-transform: lowercase
-
-h5
-    margin-top: 1em
+h1, h2, h3, h4
+    font-family: monaco
     text-transform: lowercase
 
 p
@@ -30,12 +25,71 @@ ul
     // There is no reason to use bullets when indentation will suffice
     list-style: none
 
-.container
-    margin-top: 4em
-    margin-bottom: 4em
-    padding: 2em
-    border-radius: 0px
-    border-left: black solid 1px
+#header
+    padding: 2em 0 2em 0
+    // height: 60px
+    border-bottom: 1px solid $border-color
+
+    a
+        text-decoration: none
+        color: $font-color
+
+        &:hover
+            color: blue
+
+    h1
+        text-transform: uppercase
+        line-height: 1em
+        font-size: 4em
+
+#logo
+    img
+        padding: 10px 0
+
+#main
+    position: relative
+
+#nav
+    position: absolute
+    top: 0px
+    right: 0px
+    height: 200px
+    width: 200px
+
+    font-size: 1em
+    border-bottom: 1px solid #E5E5E5
+    h1
+        font-size: 1.5em
+        line-height: 1.3em
+        padding: 10px 0 0 14px
+        float: left
+    ul
+        font-size: 12px
+        height: 45px
+        margin: 0
+        text-align: center
+        white-space: nowrap
+
+        li
+            font-weight: 600
+            height: 45px
+            text-transform: uppercase
+            margin: 0 30px
+            // margin-top: 10px
+            border-top: 10px solid transparent
+            height: 29px
+
+.hl
+    li
+        display: inline-block
+        list-style-type: none
 
 #home
     color: gray
+
+#content
+    margin: 20px 0
+    width: 500px
+
+.post
+    padding: 1.5em 0 1em 0
