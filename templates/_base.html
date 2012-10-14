@@ -9,21 +9,10 @@
         <div class="container">
             <div id="header">
                 <span id="logo">
-                    <a href="/">
-                        <h1>CJB</h1>
-                    </a>
+                    <h1><a href="index.html">CJB</a></h1>
                 </span>
             </div>
             <div id="main">
-                <div id="nav">
-                    <ul class="hl">
-                        {% for navitem in navitems %}
-                        <li>
-                            <a href="{{ navitem.href }}">{{ navitem.name }}</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
                 <div id="content">
                     {% block header %}
                     {% endblock %}
@@ -31,9 +20,6 @@
                     {% endblock %}
                     {% block footer %}
                     <div id="footer" class="row">
-                        <div class="offset1 span5">
-                            <p><a id="home" href="index.html">home</a></p>
-                        </div>
                     </div>
                     {% endblock %}
                 </div>
