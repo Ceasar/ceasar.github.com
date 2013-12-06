@@ -1,0 +1,125 @@
+body {
+  font-size: 16px;
+  font-family: serif;
+  font-weight: 300;
+  background-color: white;
+  color: #333333;
+  margin: 0 auto;
+  padding: 2em; }
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+  margin-top: 1em; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.25em; }
+
+h4 {
+  font-size: 1.125em; }
+
+small {
+  display: none; }
+
+p {
+  font-size: 1em;
+  margin: 1em 0 0 0; }
+  p img {
+    float: right;
+    padding: 15px 0; }
+
+a {
+  color: #878787; }
+  a:hover {
+    color: #878787; }
+
+.post p > a {
+  font-size: smaller;
+  vertical-align: super;
+  line-height: 1em; }
+
+p + ul, p + ol {
+  margin-top: 1em; }
+
+ul {
+  list-style: lower-greek; }
+
+code {
+  padding: 0;
+  color: inherit;
+  background-color: inherit;
+  border: none;
+  font-family: serif;
+  font-size: 1em;
+  font-style: italic; }
+
+.container {
+  width: 720px; }
+
+.hl li {
+  display: inline-block;
+  list-style-type: none; }
+
+.posts a {
+  text-transform: capitalize; }
+
+#home {
+  color: gray; }
+
+#content {
+  margin-top: 2em;
+  float: right;
+  width: 30em; }
+
+#header {
+  position: fixed; }
+  #header a {
+    text-decoration: none;
+    color: #333333; }
+  #header h1 {
+    text-transform: uppercase;
+    line-height: 1em;
+    font-size: 4em; }
+
+#nav {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  font-size: 1em;
+  border-bottom: 1px solid #e5e5e5; }
+  #nav h1 {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    padding: 10px 0 0 14px;
+    float: left; }
+  #nav ul {
+    font-size: 12px;
+    height: 45px;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap; }
+    #nav ul li {
+      font-weight: 600;
+      height: 45px;
+      text-transform: uppercase;
+      margin: 0 30px;
+      border-top: 10px solid transparent;
+      height: 29px; }
+
+#toc {
+  font-size: 80%;
+  background: #f9f9f9;
+  padding: 0.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: scroll;
+  width: 25%; }
