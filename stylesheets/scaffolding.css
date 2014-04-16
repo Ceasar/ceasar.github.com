@@ -30,7 +30,7 @@ p {
   font-size: 1em;
   margin: 1em 0 0 0; }
   p img {
-    float: right;
+    max-width: 100%;
     padding: 15px 0; }
 
 a {
@@ -122,4 +122,4 @@ code {
   left: 0;
   height: 100%;
   overflow: scroll;
-  width: 25%; }
+  width: 17em; }
