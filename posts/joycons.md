@@ -54,7 +54,7 @@ Takeaways:
 
 - Between the two official Nintendo controllers, the Nintendo Switch Pro Controller has many advantages: it's cheaper, has a longer battery life, has better ergonomics, has a proper D-pad, and up to 8 can be connected to the Switch, whereas a maximum of four Joy-Con pairs can be connected ([since each Joy-Coin counts as separate controller](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22424/~/controller-pairing-faq)). However, the Joy-Con can function as two separate controllers in a pinch for games like Mario Kart, has more interesting motion control possibilites (such as aiming a weapon by pointing), and it has an IR camera sensor which can be used in some games.
 
-- If motion control is unimportant to you and you are optimizing for price, the two best options are the wired SN30 Pro ($25) or used GameCube controllers from friends/Craigslist/GameStop. (Nintendo has discontinued selling GameCube controllers. Also, beware there are many bad knockoffs online, which can be distinguished by the lack of the "Nintendo GameCube" print on the front.) Between these two, the GameCube controllers have less technical issues, but the wired SN30 Pro is smaller and more portable.
+- If motion control is unimportant to you and you are optimizing for price, the two best options are the wired SN30 Pro ($25) or used GameCube controllers from friends/Craigslist/GameStop. Between these two, the GameCube controllers have less technical issues, but the wired SN30 Pro is smaller and more portable.
 
 - 8BitDo's SN30 Pro controller is a cheaper, more portable, alternative to the Nintendo Switch Pro Controller, but it lacks some of Nintendo's proprietary features such as HD Rumble and Amiibo scanning (which may not matter to you). There are also reports of some issues which connectivity that the Nintendo Switch Pro Controller might not have. However, if you are looking to buy a new 8BitDo controller, it is probably worth waiting for the SN30 Pro+, which ships August 7, 2019. The Pro+ is only $5 more than the Pro, but has better ergonomics and is customizable.
 
@@ -83,4 +83,4 @@ Sources:
 - [Reddit. Differences between SN30 pro and SF30 pro models?](https://www.reddit.com/r/8bitdo/comments/9v1xp4/differences_between_sn30_pro_and_sf30_pro_models/) (for info on the SF30 model)
 - [Reddit. 8Bitdo SN30 Pro review](https://www.reddit.com/r/NintendoSwitch/comments/9immdl/8bitdo_sn30_pro_review/)
 
-[^1]: Nintendo no longer sells these controllers, so the only option is to buy them used.
+[^1]: Nintendo no longer sells these controllers, so the only option is to buy them used. Beware of bad knockoffs online. Original GameCube controllers can be distinguished by the presence of the "NINTENDO GAMECUBE" print on the front. A complete list of special editions along with images can be found [here](https://tay.kinja.com/every-gamecube-controller-nintendo-ever-made-ever-1658747867).
