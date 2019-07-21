@@ -57,7 +57,7 @@ Other comments:
 
 - 8BitDo controllers require installing firmware updates. Since I don't own one, I don't know how hard this is, but it's something to consider if you're not very technical. On the other hand, future firmware updates maybe enable compatibility with future consoles.
 
-- [The SN30 Pro may only connect to the Switch via Bluetooh, even when connected via the USB cable](https://www.reddit.com/r/8bitdo/comments/b753j9/i_just_ordered_a_sn30_pro_for_my_switch_is_it/eucbgle/). I can't verify this though. Perhaps something to think about if you care about input latency.
+- [The SN30 Pro may only connect to the Switch via Bluetooth, even when connected via the USB cable](https://www.reddit.com/r/8bitdo/comments/b753j9/i_just_ordered_a_sn30_pro_for_my_switch_is_it/eucbgle/). I can't verify this though. Perhaps something to think about if you care about input latency.
 
 - Up to eight wireless controllers can be connected to Switch. However, [each Joy-Con counts as a separate controller](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22424/~/controller-pairing-faq), so only a maximum of four people can play using Joy-Cons. Another possible reason not to buy Joy-Cons.
 
