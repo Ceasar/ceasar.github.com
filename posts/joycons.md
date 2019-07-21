@@ -13,11 +13,11 @@ table {
 
 <time>2019-07-20</time>
 
-According to a [recent popular Reddit thread with over twenty-five thousand upvotes](https://www.reddit.com/r/NintendoSwitch/comments/cczxwz/i_know_its_been_said_a_billion_times_but_nintendo/), normal use of Nintendo Joy-Con controllers eventually leads to a hardware failure called "Joy-Con drift", in which one of the thumbsticks feeds input to the game even when the player is not touching the controller. This can cause in-game cameras and cursors to slowly move toward one direction, which makes most games extremely unpleasant to play. Nintendo has not addressed the issue, which makes Joy-Con controllers a risky $80 purchase.
+According to a [recent popular Reddit thread](https://www.reddit.com/r/NintendoSwitch/comments/cczxwz/i_know_its_been_said_a_billion_times_but_nintendo/), normal use of Nintendo Joy-Con controllers slowly wears down the hardware inside the thumbsticks. In time, this will causes the thumbsticks to "drift"; that is, continuously send a signal to the system even when nobody is touching the controller. This "drift" can cause in-game cameras to perpetually rotate or in-game cursors to repeatedly move toward one side of the screen. Nintendo has not yet acknowledged the issue.
 
-Since I am in the market for a controller myself, the discussion motivated me to write this page, which compiles my research on several Joy-Con alternatives that were widely recommended on Reddit and discusses the trade-offs.
+Since I am in the market for a controller myself, the discussion motivated me to write this page, which compares several alternatives to the Joy-Con that were popular on Reddit, and discusses the trade-offs. (Other controllers than the ones I discuss below can be made compatible with the Switch with adapters, but I'm only interested in ones that seemed popular.)
 
-Important terms that initially confused me:
+Some important terms that initially confused me:
 
 - *Analog (thumb) stick*. Controller component that allows for directional input in any direction. Popularized by the N64 controller. This component fails on the Joy-Con, which causes drift.
 - *D-pad*. "Directional pad". Flat, cross-shaped controller input popularized by Nintendo. Unlike analog sticks, the input is digital; it can only register up, down, left, and right. (Joy-Con controllers have no D-pad, and instead have discrete buttons, so that they mirror each other.) Good D-pads are important when playing 2-D games such as platformers and fighting games.
@@ -41,8 +41,6 @@ Name | Image | Price | Battery | Connectivity | Vibration | Motion controls | St
 [Nintendo Wired GameCube Controller](https://en.wikipedia.org/wiki/GameCube_controller) + adapter | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/GameCube_controller.png/309px-GameCube_controller.png) | <$50 for controller on Craigslist  + $15-20 for an adapter | N/A | Wired | Regular rumble | No | [3 solid colors, plus many special editions](https://tay.kinja.com/every-gamecube-controller-nintendo-ever-made-ever-1658747867) | Did not find any complaints.
 [Nintendo WaveBird Wireless Controller](https://en.wikipedia.org/wiki/WaveBird_Wireless_Controller) + adapter | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Nintendo-GameCube-Wavebird-Silver.jpg/286px-Nintendo-GameCube-Wavebird-Silver.jpg) | <$50 for controller on Craigslist + $15-20 for an adapter | 2 AA batteries | Wireless | Regular rumble | No  | Grey / Platinum | Did not find any complaints.
 [PlayStation Dualshock 4 (DS4)](https://en.wikipedia.org/wiki/DualShock) + adapter | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/DualShock_4.jpg/271px-DualShock_4.jpg) | [$45 on Amazon](https://amzn.to/2JQwFVI) + $20 for an adapter | 1000 mAh Li-ion battery | Wireless | Regular rumble | Accelerometer, Gyroscope | | Didn't look carefully at this. Probably only interesting if you come from a PlayStation background?
-
-Other controllers are possible via adapters, but none seemed popular.
 
 Takeaways:
 
