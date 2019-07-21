@@ -1,6 +1,7 @@
 
-# Some alternatives to Nintendo Joy-Cons
+# Some alternatives to Nintendo Joy-Con controllers
 
+<title>Some alternatives to Nintendo Joy-Con controllers</title>
 <style>
 img {
     max-width: 100%;
@@ -9,7 +10,7 @@ img {
 
 <time>2019-07-20</time>
 
-I love the innovation Nintendo is doing with the Joy-Con, but a [Reddit thread on how many Joy-Cons develop "drift"](https://www.reddit.com/r/NintendoSwitch/comments/cczxwz/i_know_its_been_said_a_billion_times_but_nintendo/), convinced me that I definitely didn't want a Joy-Con as my new controller. "Drift" is a condition where the analog stick feeds input to the controller even when the user is not touching the controller, which makes most games impossible to play. This page compiles incomplete research on some Joy-Con alternatives and what the trade-offs are. Many of the alternatives are from a company called [8BitDo](http://www.8bitdo.com/), since it was widely recommended on Reddit.
+I love the innovation Nintendo is doing with the Joy-Con, but a [Reddit thread on how many Joy-Cons develop "drift"](https://www.reddit.com/r/NintendoSwitch/comments/cczxwz/i_know_its_been_said_a_billion_times_but_nintendo/), convinced me that I definitely didn't ever want a Joy-Con as a new controller. "Drift" is a condition where the analog stick feeds input to the controller even when the user is not touching the controller, which makes most games impossible to play. This page compiles incomplete research on some Joy-Con alternatives and what the trade-offs are. Many of the alternatives are from a company called [8BitDo](http://www.8bitdo.com/), since it was widely recommended on Reddit.
 
 Important terms that initially confused me:
 
