@@ -1,7 +1,7 @@
 
-# Some alternatives to the Nintendo Joy-Con
+# Comparison of Nintendo Switch controllers
 
-<title>Some alternatives to the Nintendo Joy-Con</title>
+<title>Comparison of Nintendo Switch controllers</title>
 <style>
 img {
     max-width: 100%;
@@ -13,9 +13,7 @@ table {
 
 <time>2019-07-20</time>
 
-According to a [recent popular Reddit thread](https://www.reddit.com/r/NintendoSwitch/comments/cczxwz/i_know_its_been_said_a_billion_times_but_nintendo/), normal use of Nintendo Joy-Con controllers slowly wears down the hardware inside the thumbsticks. In time, this will causes the thumbsticks to "drift"; that is, continuously send a signal to the system even when nobody is touching the controller. This "drift" can cause in-game cameras to perpetually rotate or in-game cursors to repeatedly move toward one side of the screen. Nintendo has not yet acknowledged the issue.
-
-Since I am in the market for a controller myself, the discussion motivated me to write this page, which compares several alternatives to the Joy-Con that were popular on Reddit, and discusses the trade-offs. (Other controllers than the ones I discuss below can be made compatible with the Switch with adapters, but I'm only interested in ones that seemed popular.)
+The table belows provides a feature comparison of official and 3rd party controllers compatible with the Nintendo Switch. Each controller was at least semi-popular on Reddit.
 
 Some important terms that initially confused me:
 
@@ -32,8 +30,8 @@ Hardware comparison (prices are at the time of this writing):
 
 Name | Image | Price | Battery | Connectivity | Vibration | Motion controls | Styles | Technical issues
 ---|---|---|----|----|----|----|----|----
-[Joy-Con](https://en.wikipedia.org/wiki/Joy-Con) | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Nintendo_Switch_Joy-Con_Controllers.png/254px-Nintendo_Switch_Joy-Con_Controllers.png) | [$70 on Amazon](https://amzn.to/32Hqeg7) | 525 mAh rechargeable Li-ion battery. 20 hour battery life. 3.5 hour charging time. | Wireless Bluetooth 3.0 | HD Rumble | Accelerometer, Gyroscope | Multiple colors | Analog stick may drift after several weeks of normal use with no way to repair. No D-pad.
-[Nintendo Switch Pro Controller](https://en.wikipedia.org/wiki/Nintendo_Switch_Pro_Controller) | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg/617px-Nintendo-Switch-Pro-Controller-FL.jpg) | [$63 on Amazon](https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0) | 1300 mAh rechargeable Li-ion battery. 40 hour battery life. 6 hour charging time via USB-C. | Wireless Bluetooth 3.0 | HD Rumble | Accelerometer, Gyroscope | Black, some limited edition styles | Mixed reviews from the Joycon drift Reddit thread. Many people like the ergonomics (it has grips) and many claim they have had no issues. However, multiple people reported that it suffers from drift like the Joy-Con. Others complain about the D-pad lacking a ball in the middle, which makes it easy to accidentally input a diagonal. People comfortable with modding have had success fixing the D-pad.
+[Joy-Con](https://en.wikipedia.org/wiki/Joy-Con) | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Nintendo_Switch_Joy-Con_Controllers.png/254px-Nintendo_Switch_Joy-Con_Controllers.png) | [$70 on Amazon](https://amzn.to/32Hqeg7) | 525 mAh rechargeable Li-ion battery. 20 hour battery life. 3.5 hour charging time. | Wireless Bluetooth 3.0 | HD Rumble | Accelerometer, Gyroscope | Multiple colors | [Analog stick may drift after several weeks of normal use with no way to repair.](https://www.reddit.com/r/NintendoSwitch/comments/cczxwz/i_know_its_been_said_a_billion_times_but_nintendo/) No D-pad.
+[Nintendo Switch Pro Controller](https://en.wikipedia.org/wiki/Nintendo_Switch_Pro_Controller) | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg/617px-Nintendo-Switch-Pro-Controller-FL.jpg) | [$63 on Amazon](https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0) | 1300 mAh rechargeable Li-ion battery. 40 hour battery life. 6 hour charging time via USB-C. | Wireless Bluetooth 3.0 | HD Rumble | Accelerometer, Gyroscope | Black, some special edition styles | Controversial. Many people like the ergonomics and many claim they have had no issues. However, multiple people reported that it is susceptible to drift like the Joy-Con. Others complain about the D-pad lacking a ball in the middle, which makes it easy to accidentally input a diagonal. People comfortable with modding have had success improving the D-pad.
 [8BitDo SN30 Pro](https://www.amazon.com/8Bitdo-SN30-Controller-Windows-macOS-Android/dp/B0748S1VDC) | ![](http://support.8bitdo.com/images/support/products/sn30pro.png) | [$45 on Amazon](https://amzn.to/2Y5ffJZ) | 480 mAh rechargeable Li-ion battery. USB-C charging. 14 hour battery life. 1-2 hour charging time. | Wired USB connection or Wireless Bluetooth | Eccentric shaft gear motor | Yes | Super Nintendo ("SN"), Game Boy ("G-Classic"), and formerly Super Famicom ("SF") color schemes | Lacks grips, which is less ergonomic for some, but is smaller and lighter than the Nintendo Switch Pro Controller as a result. Cannot wirelessly wake up the Switch. Issues with D-pad similar to the Nintendo Switch Pro Controller. Some report issues of input latency and connectivity issues when many controllers were connected to the system (perhaps from Bluetooth interference?).
 [8BitDo SN30 Pro+](http://www.8bitdo.com/sn30-pro-plus/) | ![](http://support.8bitdo.com/images/support/products/sn30pro+.gif) | [$50 on Amazon](https://amzn.to/2YllTjo) | Rechargeable battery pack or AA batteries. 20 hour battery life. 4 hour charging time. | Wired or Wireless Bluetooth 4.0 | Regular rumble | Accelerometer, Gyroscope | Black, Game Boy, and Super Nintendo color schemes | Similar to the SN30 Pro, but customizable (via what 8BitDo calls "Ultimate Software") and has handles which may improve ergonomics. L2 and R2 are now analog triggers instead of buttons, but the analog capability may not actually be used in any Switch games.
 [8BitDo N30 Pro 2](http://www.8bitdo.com/n30pro-2/) | ![](http://www.8bitdo.com/images/products/n30pro-2.gif) | [$40 on Amazon](https://amzn.to/2YoulyI) | 480mAh rechargeable Li-ion battery. 18 hour battery life. 1-2 hour charging time via USB cable. | USB-C Wired or Wireless Bluetooth | Linear vibration motor | Yes | NES, N64, Gamecube, and Wii styles | Similar to SN30 Pro, but smaller, and intended to be more portable. Some complaints about the smaller analog sticks and the arrangement of the shoulder buttons (L1, L2, R1, R2), which are [side-by-side](https://images-na.ssl-images-amazon.com/images/I/71HBlyajg5L._AC_.jpg), rather than [one-behind-the-other](https://images-na.ssl-images-amazon.com/images/I/81TLnfNSq3L._AC_.jpg) like the SN30 Pro.
@@ -44,13 +42,13 @@ Name | Image | Price | Battery | Connectivity | Vibration | Motion controls | St
 
 Takeaways:
 
-- Both official Nintendo controllers have the most features and are the only ones capable of scanning Amiibos, but they also are the only ones with reports of analog stick drift, which basically makes them unusable. The best alternative depends a lot on the games you like to play.
+- Both official Nintendo controllers have the most features and are the only ones capable of scanning Amiibos, but they also are the only ones with reports of analog stick drift. If drift is a serious concern, many good alternatives exist. If drift is not a concern, these controllers have the most features and are not much more expensive. Between the two, the Nintendo Switch Pro Controller has many advantages: it's cheaper, has a longer battery life, has better ergonomics, has a relatively better D-pad, and up to 8 can be connected to the Switch, whereas a maximum of four Joy-Con pairs can be connected ([since each Joy-Coin counts as separate controller](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22424/~/controller-pairing-faq)). However, the Joy-Con can function as two separate controllers in a pinch for games like Mario Kart, has more interesting motion control possibilites (such as aiming a weapon by pointing), and it has an IR camera sensor which is used in some games.
 
-- If motion control is unimportant to you and you are optimizing for price, your two options are the wired SN30 Pro ($25) or used GameCube controllers from friends/Craigslist/GameStop. (Nintendo has discontinued selling GameCube controllers. Also, beware there are many bad knockoffs online, which can be distinguished by the lack of the "Nintendo GameCube" print on the front.) Between these two, the GameCube controllers have less technical issues, but the wired SN30 Pro is smaller and more portable.
+- If motion control is unimportant to you and you are optimizing for price, the two best options are the wired SN30 Pro ($25) or used GameCube controllers from friends/Craigslist/GameStop. (Nintendo has discontinued selling GameCube controllers. Also, beware there are many bad knockoffs online, which can be distinguished by the lack of the "Nintendo GameCube" print on the front.) Between these two, the GameCube controllers have less technical issues, but the wired SN30 Pro is smaller and more portable.
 
-- 8BitDo's SN30 Pro controller is a cheaper, more portable, alternative to the Nintendo Switch Pro Controller, but it lacks some of Nintendo's proprietary features such as HD Rumble and Amiibo scanning (which may not matter to you). There are also reports of some issues which connectivity that the Nintendo Switch Pro Controller might not have. However, if you are looking to buy a new 8BitDo controller, it is probably worth waiting for the SN30 Pro+, which ships August 7, 2019. The Pro+ is only $5 more than the Pro, but includes many new nice-to-have features.
+- 8BitDo's SN30 Pro controller is a cheaper, more portable, alternative to the Nintendo Switch Pro Controller, but it lacks some of Nintendo's proprietary features such as HD Rumble and Amiibo scanning (which may not matter to you). There are also reports of some issues which connectivity that the Nintendo Switch Pro Controller might not have. However, if you are looking to buy a new 8BitDo controller, it is probably worth waiting for the SN30 Pro+, which ships August 7, 2019. The Pro+ is only $5 more than the Pro, but has better ergonomics and is customizable.
 
-- If you want something super portable at the cost of ergonomics, the N30 Pro 2 looks the most interesting. The N30 Pro 2 is a fraction, perhaps 1/3, of the size of a standard GameCube controller.
+- If you want something super portable at the cost of ergonomics, the N30 Pro 2 looks the most interesting. The N30 Pro 2 is a fraction of the size of a standard GameCube controller.
 
   ![GameCube controller (top) vs. N30 Pro 2 (bottom)](https://www.lootpots.com/wp-content/uploads/2019/02/n30pro-gc-666x374.jpg)
 
@@ -60,11 +58,7 @@ Other comments:
 
 - 8BitDo controllers require installing firmware updates. Since I don't own one, I don't know how hard this is, but it's something to consider if you're not very technical. On the other hand, future firmware updates maybe enable compatibility with future consoles.
 
-- [The SN30 Pro may only connect to the Switch via Bluetooth, even when connected via the USB cable](https://www.reddit.com/r/8bitdo/comments/b753j9/i_just_ordered_a_sn30_pro_for_my_switch_is_it/eucbgle/). I can't verify this though. Perhaps something to think about if you care about input latency.
-
-- Up to eight wireless controllers can be connected to Switch. However, [each Joy-Con counts as a separate controller](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22424/~/controller-pairing-faq), so only a maximum of four people can play using Joy-Con controllers. Another possible reason not to buy Joy-Con controllers.
-
-Curious what other controllers people recommend, and if I made any mistakes or omitted anything important that I really should consider.
+- [The SN30 Pro may only connect to the Switch via Bluetooth, even when connected via the USB cable](https://www.reddit.com/r/8bitdo/comments/b753j9/i_just_ordered_a_sn30_pro_for_my_switch_is_it/eucbgle/). I can't verify this though. Perhaps something to think about if you care about input latency. This may change with the SN30 Pro+.
 
 Sources:
 
