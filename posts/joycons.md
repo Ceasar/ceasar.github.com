@@ -1,5 +1,5 @@
 
-# So Nintendo Joy-Cons suck. Here are some alternatives
+# Some alternatives to Nintendo Joy-Cons
 
 <style>
 img {
@@ -58,7 +58,7 @@ Other comments:
 
 - [The SN30 Pro may only connect to the Switch via Bluetooh, even when connected via the USB cable](https://www.reddit.com/r/8bitdo/comments/b753j9/i_just_ordered_a_sn30_pro_for_my_switch_is_it/eucbgle/). I can't verify this though. Perhaps something to think about if you care about input latency.
 
-- Up to eight wireless controllers can be connected to Switch. [However, each Joy-Con counts as a separate controller](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22424/~/controller-pairing-faq), so only a maximum of four people can play using Joy-Cons. Another possible reason not to buy Joy-Cons.
+- Up to eight wireless controllers can be connected to Switch. However, [each Joy-Con counts as a separate controller](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22424/~/controller-pairing-faq), so only a maximum of four people can play using Joy-Cons. Another possible reason not to buy Joy-Cons.
 
 Curious what other controllers people recommend, and if I made any mistakes or omitted anything important that I really should consider.
 
