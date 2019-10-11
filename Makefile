@@ -1,7 +1,6 @@
-OBJS := $(addprefix posts/,joycons.html)
+OBJS := $(addprefix posts/,joycons.html memex_meetup_2.html)
 
-posts/joycons.html: posts/joycons.md
+posts/%.html: posts/%.md
 	pandoc $< -f markdown -t html > $@
 
 all: $(OBJS)
-	echo $(OBJS)
