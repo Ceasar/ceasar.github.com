@@ -66,10 +66,11 @@ If he ever runs out of prompts, his task for the day is to generate 10 new
 prompts to use in the future. All of the prompts are stored in a meta list of
 idea lists, which links to each idea list.
 
-Why is this important? The ability to generate ideas defines the spaces of ideas that people have access to.
+Why is this important? The ability to generate ideas defines the spaces of
+ideas that people have access to.
 
 According to Jeremy, this practice has enabled him to generate plans and
-concrete options in the fact of a problem.
+concrete options in the face of a problem.
 
 Learn more: [Systematizing Creativity - Models and Techniques](https://jeremynixon.github.io/creativity/2018/06/09/systematizing-creativity-models-and-techniques.html)
 
@@ -124,13 +125,13 @@ Andy introduced himself with a series of questions:
   last 30 years?
 - Why are his capable colleagues are incapable of producing anything important
   here?
-- Do I know anything that they don't that might allow progress to be made?
+- Does he know anything that they don't that might allow progress to be made?
 
 He calibrated himself by asking us how many of us were familiar with the
 following questions:
 
 - How many of us were familiar with spaced repetition? How many do it regularly?
-- How many many of us were familiar with a Zettelksten?
+- How many many of us were familiar with a Zettelkasten?
 - How many of us were technologists?
 
 He had just published an essay, or perhaps more accurately a mini-book, called
@@ -219,7 +220,7 @@ Intelligence augmentation is about increasing returns on cognitive work.
 
 ### Solutions
 
-Joel created for himself a variation of a Zetteklasten where cards can be
+Joel created for himself a variation of a Zettelkasten where cards can be
 arranged into articles, where an article is just a sequence of cards.
 
 Each card is written as a re-usable thought chunk with a unique number in the
@@ -268,7 +269,7 @@ Research](https://roamresearch.com/#/v8/help/page/1471). His system is similar
 to WorkFlowy, but it has some interesting features:
 
 - Bi-directional links between bullets
-- Resuable bullets
+- Reusable bullets
 - A slash command, that enables macros such as getting the current time, or
   showing a date picker to help you pick a date
 - Different views of the data, including a Kanban Board and table views
@@ -289,8 +290,8 @@ create associations between two strings. He simply selects a string in his
 database, and then he add type in additional strings and the program will
 create associations and render them as a list.
 
-It has 2.2 unique text strings with 7M associations between them. He can do
-count on the number of times each string was accessed.
+It has 2.2M unique text strings with 7M associations between them. He can do
+counts on the number of times each string was accessed.
 
 Mark takes an approach from semiotics: the meaning of strings comes from their
 relation or non-relation to other strings. I think he sees his project partly
@@ -298,18 +299,20 @@ as a work of art.
 
 When Mark associates string, he doesn't necessarily understand what each string
 means. For example, he doesn't understand what "Kant's transcendental critique"
-means. But if he links it to enough things over time, it will become more clear
-to him. As he reads books or papers, he continuously adds phrases that are
-interesting to him.
+means. But if he links it to enough words/phrases to it over time, it will
+become more clear to him. As he reads books or papers, he continuously adds
+phrases that are interesting to him.
 
 # Ceasar Bautista
 
-I presented by my encyclopedia, [memex.cc](http://memex.cc/). I explained the
-software was less interesting to me than knowledge of how to write decent
-entries, which involved coming up with a list of common section headers. Each
-section header implicitly is answer to a question. If you can find patterns, it
-should become easier to know the questions you need to ask when you encounter
-something new.
+Twitter: [@Ceasar_Bautista](https://twitter.com/Ceasar_Bautista)
+
+I presented by my encyclopedia, [memex.cc](http://memex.cc/), which I've been
+working on for the last six years. I explained that the software was less
+interesting to me than knowledge of how to write decent entries, which involved
+coming up with a list of common section headers. Each section header implicitly
+is an answer to a question. If you can find patterns, it should become easier
+to know the questions you need to ask when you encounter something new.
 
 # Jacob Cole
 
@@ -332,7 +335,7 @@ The autocomplete uses semantic search. It's based on something called
 "ConceptNet" but is more fuzzy. Jacob didn't fully understand because he hired
 an NLP Phd to help him with it.
 
-IdeaFlow is similar to Workflowly, but it has a few cool ideas:
+IdeaFlow is similar to Workflowy, but it has a few cool ideas:
 
 - You can view it as bulleted lists or as a directed-graph (that uses
   force-projection to space everything out)
@@ -342,7 +345,7 @@ IdeaFlow is similar to Workflowly, but it has a few cool ideas:
 Jacob also shared some interesting etymologies with us:
 
 - "education" comes from "educe" "to bring out that which is within"
-- "instruction" refers to a process in Ancient Rome where they ran them around
+- "instruction" refers to a process in Ancient Rome where they ran horses around
   a pole called a "curriculum"
 
 # Collective ideas
