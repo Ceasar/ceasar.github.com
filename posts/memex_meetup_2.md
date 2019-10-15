@@ -1,3 +1,6 @@
+
+<title>Memex Meetup 2019-10-05</title>
+
 # Memex Meetup 2019-10-05
 
 On October 5, 2019, I attended a meet-up in San Francisco, the second of two
