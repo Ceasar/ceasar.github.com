@@ -305,7 +305,7 @@ phrases that are interesting to him.
 
 # Ceasar Bautista
 
-Twitter: [@Ceasar_Bautista](https://twitter.com/Ceasar_Bautista)
+Twitter: [\@Ceasar_Bautista](https://twitter.com/Ceasar_Bautista)
 
 I presented by my encyclopedia, [memex.cc](http://memex.cc/), which I've been
 working on for the last six years. I explained that the software was less
